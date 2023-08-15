@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="Visualg.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar & Bath</title>
+</head>
+<body>
+    <p></p>
+    <h1>VISUALG</h1>
+    <label></label>
+    <textarea name="campo_a" rows="5" cols="100" class="campo_a">
+    algoritmo "EX39"
+
+    var
+    people, bath, bar:real
+    inicio
+    escreva("Insira o público presente: ")
+    leia(people)
+    bath <- (people / 50)
+    bar <- (people / 150)
+        
+    escreval("Banheiros necessários:",bath)
+    escreva("Bares necessários:",bar)
+    fimalgoritmo
+    </textarea><br><br>
+    <button type="button" class="copiar">COPIAR</button><br><br>
+    <img src="zCapturar34.PNG">
+    <a href="index.html"><button type="button" class="backing">VOLTAR</button>
+    <script>
+
+      const btnCopiar = document.querySelector('.copiar');
+        const textAreaCampoA = document.querySelector('.campo_a');
+        const btnColar = document.querySelector('.colar');
+        const textAreaCampoB = document.querySelector('.campo_b');
+
+        btnCopiar.addEventListener('click', (e) => {          
+            navigator.clipboard.writeText(textAreaCampoA.value);
+        });
+   
+    </script>
+    </body>
+</html>
+

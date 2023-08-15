@@ -1,0 +1,50 @@
+body{
+    background-image: url(zvisualgag.jpg);
+    background-size: 100%;
+}
+img{
+    width: 98%;
+}
+h1{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration-line: underline;
+    
+}
+h2{
+    color: aliceblue;
+}
+.copiar{
+    background-color: #0088cc;
+    color: #fff;
+    padding: 5px 8px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all .3s ease; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: bold; 
+
+}
+.copiar:hover{
+    background-color: #fff;
+    color: #0088cc; 
+}
+.backing{
+    background-color: #0088cc;
+    color: #fff;
+    padding: 5px 8px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+    transition: all .3s ease; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: bold; 
+
+}
+.backing:hover{
+    background-color: #fff;
+    color: #0088cc; 
+}
